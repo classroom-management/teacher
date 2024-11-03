@@ -11636,7 +11636,7 @@
               (this.image.width = this.w - 2 * t.border),
               (this.image.height = this.h - 2 * t.border),
               this.spinner.scale.set(0.4),
-              this.load("assets/placeholder/" + t.image + ".png");
+              this.load("https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/placeholder/" + t.image + ".png");
           }),
           AvatarIcon
         );
@@ -11968,7 +11968,7 @@
               this.menu.btn.boosts && (this.menu.btn.boosts.x = -90),
               (this.menu.btn.play.x = 180),
               (this.menu.btn.play.y = -12),
-              (this.jake = new Fn("assets/placeholder/jake.png")),
+              (this.jake = new Fn("https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/placeholder/jake.png")),
               (this.jake.x = -180),
               (this.jake.y = 60),
               this.content.addChild(this.jake),
@@ -12719,7 +12719,7 @@
                   (i.style.marginLeft = "50%"),
                   (i.style.left = -this.w / 2 + "px"),
                   (i.style.top = "20%"),
-                  (i.style.backgroundImage = 'url("assets/placeholder/box_base.png")'),
+                  (i.style.backgroundImage = 'url("https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/placeholder/box_base.png")'),
                   (i.style.backgroundPosition = "center"),
                   (i.style.backgroundRepeat = "no-repeat"),
                   (i.style.backgroundSize = "contain"),
@@ -12886,7 +12886,7 @@
                   for (var n in t[i])
                     for (var o in t[i][n])
                       for (var s in t[i][n][o]) {
-                        var a = pathJoin(e, t[i][n][o][s]).replace("assets/", "");
+                        var a = pathJoin(e, t[i][n][o][s]).replace("https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/", "");
                         t[i][n][o][s] = a;
                       }
             })(e.bundle),
