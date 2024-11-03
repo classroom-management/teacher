@@ -22043,27 +22043,47 @@
                             for (; this.data.firstChild;) this.data.removeChild(this.data.firstChild);
                     this._finish()
                 }
-            }, Resource.prototype.load = function(t) {
-                var e = this;
-                if (!this.isLoading)
-                    if (this.isComplete) t && setTimeout(function() {
-                        return t(e)
-                    }, 1);
-                    else switch (t && this.onComplete.once(t), this._setFlag(Resource.STATUS_FLAGS.LOADING, !0), this.onStart.dispatch(this), !1 !== this.crossOrigin && "string" == typeof this.crossOrigin || (this.crossOrigin = this._determineCrossOrigin(this.url)), this.loadType) {
-                        case Resource.LOAD_TYPE.IMAGE:
-                            this.type = Resource.TYPE.IMAGE, this._loadElement("image");
-                            break;
-                        case Resource.LOAD_TYPE.AUDIO:
-                            this.type = Resource.TYPE.AUDIO, this._loadSourceElement("audio");
-                            break;
-                        case Resource.LOAD_TYPE.VIDEO:
-                            this.type = Resource.TYPE.VIDEO, this._loadSourceElement("video");
-                            break;
-                        case Resource.LOAD_TYPE.XHR:
-                        default:
-                            a && this.crossOrigin ? this._loadXdr() : this._loadXhr()
-                    }
-            }, Resource.prototype._hasFlag = function(t) {
+}, Resource.prototype.load = function(t) {
+    var e = this;
+    if (!this.isLoading) {
+        if (this.isComplete) {
+            t && setTimeout(function() {
+                return t(e);
+            }, 1);
+        } else {
+            // Execute onComplete callback if provided
+            if (t) this.onComplete.once(t);
+
+            // Set loading flag and dispatch start event
+            this._setFlag(Resource.STATUS_FLAGS.LOADING, true);
+            this.onStart.dispatch(this);
+
+            // Determine cross-origin setting
+            if (!this.crossOrigin || typeof this.crossOrigin !== "string") {
+                this.crossOrigin = this._determineCrossOrigin(this.url);
+            }
+
+            // Determine load type and load accordingly
+            switch (this.loadType) {
+                case Resource.LOAD_TYPE.IMAGE:
+                    this.type = Resource.TYPE.IMAGE;
+                    this._loadElement("image");
+                    break;
+                case Resource.LOAD_TYPE.AUDIO:
+                    this.type = Resource.TYPE.AUDIO;
+                    this._loadSourceElement("audio");
+                    break;
+                case Resource.LOAD_TYPE.VIDEO:
+                    this.type = Resource.TYPE.VIDEO;
+                    this._loadSourceElement("video");
+                    break;
+                case Resource.LOAD_TYPE.XHR:
+                default:
+                    o && this.crossOrigin ? this._loadXdr() : this._loadXhr();
+            }
+        }
+    }
+}, Resource.prototype._hasFlag = function(t) {
                 return 0 != (this._flags & t)
             }, Resource.prototype._setFlag = function(t, e) {
                 this._flags = e ? this._flags | t : this._flags & ~t
