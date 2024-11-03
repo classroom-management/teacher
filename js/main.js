@@ -309,36 +309,36 @@
         game: {
           image: {
             "game/board_new_york_tex": {
-              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/board_new_york_tex.png",
-              low: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/board_new_york_tex_mip.png",
+              default: "assets/game/board_new_york_tex.png",
+              low: "assets/game/board_new_york_tex_mip.png",
             },
             "game/effects_tex": {
-              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/effects_tex.png",
-              low: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/effects_tex_mip.png",
+              default: "assets/game/effects_tex.png",
+              low: "assets/game/effects_tex_mip.png",
             },
             "game/enemies": {
-              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/enemies.png",
-              low: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/enemies_mip.png",
+              default: "assets/game/enemies.png",
+              low: "assets/game/enemies_mip.png",
             },
             "game/halo": {
-              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/halo.png",
-              low: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/halo_mip.png",
+              default: "assets/game/halo.png",
+              low: "assets/game/halo_mip.png",
             },
             "game/jetpackSmoke": {
-              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/jetpackSmoke.png",
-              low: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/jetpackSmoke_mip.png",
+              default: "assets/game/jetpackSmoke.png",
+              low: "assets/game/jetpackSmoke_mip.png",
             },
             "game/ocean": {
-              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/ocean.png",
-              low: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/ocean_mip.png",
+              default: "assets/game/ocean.png",
+              low: "assets/game/ocean_mip.png",
             },
             "game/shadow": {
-              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/shadow.png",
-              low: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/shadow_mip.png",
+              default: "assets/game/shadow.png",
+              low: "assets/game/shadow_mip.png",
             },
             "game/spraySplash": {
-              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/spraySplash.png",
-              low: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/spraySplash_mip.png",
+              default: "assets/game/spraySplash.png",
+              low: "assets/game/spraySplash_mip.png",
             },
           },
           fonts: {},
