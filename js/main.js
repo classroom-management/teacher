@@ -287,58 +287,58 @@
           animate: {},
           misc: {
             "font/lilita-one": {
-              default: "font/lilita-one.css",
+              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/font/lilita-one.css",
             },
             "font/lilita-one-1": {
-              default: "font/lilita-one.woff",
+              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/font/lilita-one.woff",
             },
             "font/lilita-one-2": {
-              default: "font/lilita-one.woff2",
+              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/font/lilita-one.woff2",
             },
             "font/titan-one": {
-              default: "font/titan-one.css",
+              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/font/titan-one.css",
             },
             "font/titan-one-1": {
-              default: "font/titan-one.woff",
+              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/font/titan-one.woff",
             },
             "font/titan-one-2": {
-              default: "font/titan-one.woff2",
+              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/font/titan-one.woff2",
             },
           },
         },
         game: {
           image: {
             "game/board_new_york_tex": {
-              default: "game/board_new_york_tex.png",
-              low: "game/board_new_york_tex_mip.png",
+              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/board_new_york_tex.png",
+              low: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/board_new_york_tex_mip.png",
             },
             "game/effects_tex": {
-              default: "game/effects_tex.png",
-              low: "game/effects_tex_mip.png",
+              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/effects_tex.png",
+              low: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/effects_tex_mip.png",
             },
             "game/enemies": {
-              default: "game/enemies.png",
-              low: "game/enemies_mip.png",
+              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/enemies.png",
+              low: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/enemies_mip.png",
             },
             "game/halo": {
-              default: "game/halo.png",
-              low: "game/halo_mip.png",
+              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/halo.png",
+              low: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/halo_mip.png",
             },
             "game/jetpackSmoke": {
-              default: "game/jetpackSmoke.png",
-              low: "game/jetpackSmoke_mip.png",
+              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/jetpackSmoke.png",
+              low: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/jetpackSmoke_mip.png",
             },
             "game/ocean": {
-              default: "game/ocean.png",
-              low: "game/ocean_mip.png",
+              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/ocean.png",
+              low: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/ocean_mip.png",
             },
             "game/shadow": {
-              default: "game/shadow.png",
-              low: "game/shadow_mip.png",
+              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/shadow.png",
+              low: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/shadow_mip.png",
             },
             "game/spraySplash": {
-              default: "game/spraySplash.png",
-              low: "game/spraySplash_mip.png",
+              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/spraySplash.png",
+              low: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/spraySplash_mip.png",
             },
           },
           fonts: {},
@@ -348,16 +348,16 @@
           animate: {},
           misc: {
             "game/board_new_york": {
-              default: "game/board_new_york.fbx",
+              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/board_new_york.fbx",
             },
             "game/board_new_york01": {
-              default: "game/board_new_york01.fbx",
+              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/board_new_york01.fbx",
             },
             "game/environment": {
-              default: "game/environment.fbx",
+              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/environment.fbx",
             },
             "game/model_avatar_catch": {
-              default: "game/model_avatar_catch.fbx",
+              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/model_avatar_catch.fbx",
             },
             "game/model_avatar_movement": {
               default: "game/model_avatar_movement.fbx",
@@ -365,11 +365,11 @@
             "game/model_avatar_powerup_jet_pack": {
               default: "game/model_avatar_powerup_jet_pack.fbx",
             },
-            "game/model_avatar_powerup_pogostick": {
+            "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/model_avatar_powerup_pogostick": {
               default: "game/model_avatar_powerup_pogostick.fbx",
             },
             "game/model_avatar_start": {
-              default: "game/model_avatar_start.fbx",
+              default: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/game/model_avatar_start.fbx",
             },
             "game/model_dog_catch": {
               default: "game/model_dog_catch.fbx",
