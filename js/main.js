@@ -129,97 +129,97 @@
           image: {},
           fonts: {},
           audio: {
-            "audio/guard_catch": {
-              mp3: "audio/guard_catch.mp3",
-              ogg: "audio/guard_catch.ogg",
+            "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/guard_catch": {
+              mp3: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/guard_catch.mp3",
+              ogg: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/guard_catch.ogg",
             },
-            "audio/guard_proximity": {
-              mp3: "audio/guard_proximity.mp3",
-              ogg: "audio/guard_proximity.ogg",
+            "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/guard_proximity": {
+              mp3: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/guard_proximity.mp3",
+              ogg: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/guard_proximity.ogg",
             },
-            "audio/guard_start": {
-              mp3: "audio/guard_start.mp3",
-              ogg: "audio/guard_start.ogg",
+            "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/guard_start": {
+              mp3: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/guard_start.mp3",
+              ogg: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/guard_start.ogg",
             },
-            "audio/hero_death": {
-              mp3: "audio/hero_death.mp3",
-              ogg: "audio/hero_death.ogg",
+            "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_death": {
+              mp3: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_death.mp3",
+              ogg: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_death.ogg",
             },
-            "audio/hero_death_hitcam": {
-              mp3: "audio/hero_death_hitcam.mp3",
-              ogg: "audio/hero_death_hitcam.ogg",
+            "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_death_hitcam": {
+              mp3: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_death_hitcam.mp3",
+              ogg: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_death_hitcam.ogg",
             },
-            "audio/hero_dodge": {
-              mp3: "audio/hero_dodge.mp3",
-              ogg: "audio/hero_dodge.ogg",
+            "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_dodge": {
+              mp3: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_dodge.mp3",
+              ogg: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_dodge.ogg",
             },
-            "audio/hero_foot_l": {
-              mp3: "audio/hero_foot_l.mp3",
-              ogg: "audio/hero_foot_l.ogg",
+            "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_foot_l": {
+              mp3: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_foot_l.mp3",
+              ogg: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_foot_l.ogg",
             },
-            "audio/hero_foot_r": {
-              mp3: "audio/hero_foot_r.mp3",
-              ogg: "audio/hero_foot_r.ogg",
+            "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_foot_r": {
+              mp3: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_foot_r.mp3",
+              ogg: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_foot_r.ogg",
             },
-            "audio/hero_hoverboard_crash": {
-              mp3: "audio/hero_hoverboard_crash.mp3",
-              ogg: "audio/hero_hoverboard_crash.ogg",
+            "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_hoverboard_crash": {
+              mp3: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_hoverboard_crash.mp3",
+              ogg: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_hoverboard_crash.ogg",
             },
-            "audio/hero_jump": {
-              mp3: "audio/hero_jump.mp3",
-              ogg: "audio/hero_jump.ogg",
+            "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_jump": {
+              mp3: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_jump.mp3",
+              ogg: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_jump.ogg",
             },
-            "audio/hero_revive": {
-              mp3: "audio/hero_revive.mp3",
-              ogg: "audio/hero_revive.ogg",
+            "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_revive": {
+              mp3: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_revive.mp3",
+              ogg: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_revive.ogg",
             },
-            "audio/hero_roll": {
-              mp3: "audio/hero_roll.mp3",
-              ogg: "audio/hero_roll.ogg",
+            "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_roll": {
+              mp3: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_roll.mp3",
+              ogg: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_roll.ogg",
             },
-            "audio/hero_sneakers_foot_l": {
-              mp3: "audio/hero_sneakers_foot_l.mp3",
-              ogg: "audio/hero_sneakers_foot_l.ogg",
+            "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_sneakers_foot_l": {
+              mp3: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_sneakers_foot_l.mp3",
+              ogg: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_sneakers_foot_l.ogg",
             },
-            "audio/hero_sneakers_foot_r": {
-              mp3: "audio/hero_sneakers_foot_r.mp3",
-              ogg: "audio/hero_sneakers_foot_r.ogg",
+            "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_sneakers_foot_r": {
+              mp3: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_sneakers_foot_r.mp3",
+              ogg: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_sneakers_foot_r.ogg",
             },
-            "audio/hero_sneakers_jump": {
-              mp3: "audio/hero_sneakers_jump.mp3",
-              ogg: "audio/hero_sneakers_jump.ogg",
+            "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_sneakers_jump": {
+              mp3: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_sneakers_jump.mp3",
+              ogg: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_sneakers_jump.ogg",
             },
-            "audio/hero_stumble": {
-              mp3: "audio/hero_stumble.mp3",
-              ogg: "audio/hero_stumble.ogg",
+            "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_stumble": {
+              mp3: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_stumble.mp3",
+              ogg: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/hero_stumble.ogg",
             },
-            "audio/pickup_coin": {
-              mp3: "audio/pickup_coin.mp3",
-              ogg: "audio/pickup_coin.ogg",
+            "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/pickup_coin": {
+              mp3: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/pickup_coin.mp3",
+              ogg: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/pickup_coin.ogg",
             },
-            "audio/pickup_powerup": {
-              mp3: "audio/pickup_powerup.mp3",
-              ogg: "audio/pickup_powerup.ogg",
+            "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/pickup_powerup": {
+              mp3: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/pickup_powerup.mp3",
+              ogg: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/pickup_powerup.ogg",
             },
-            "audio/special_jetpack": {
-              mp3: "audio/special_jetpack.mp3",
-              ogg: "audio/special_jetpack.ogg",
+            "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/special_jetpack": {
+              mp3: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/special_jetpack.mp3",
+              ogg: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/special_jetpack.ogg",
             },
-            "audio/special_jetpack_start": {
-              mp3: "audio/special_jetpack_start.mp3",
-              ogg: "audio/special_jetpack_start.ogg",
+            "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/special_jetpack_start": {
+              mp3: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/special_jetpack_start.mp3",
+              ogg: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/special_jetpack_start.ogg",
             },
-            "audio/special_magnet": {
-              mp3: "audio/special_magnet.mp3",
-              ogg: "audio/special_magnet.ogg",
+            "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/special_magnet": {
+              mp3: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/special_magnet.mp3",
+              ogg: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/special_magnet.ogg",
             },
-            "audio/theme": {
-              mp3: "audio/theme.mp3",
-              ogg: "audio/theme.ogg",
+            "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/theme": {
+              mp3: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/theme.mp3",
+              ogg: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/theme.ogg",
             },
-            "audio/ui_button": {
-              mp3: "audio/ui_button.mp3",
-              ogg: "audio/ui_button.ogg",
+            "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/ui_button": {
+              mp3: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/ui_button.mp3",
+              ogg: "https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/assets/audio/ui_button.ogg",
             },
           },
           model: {},
