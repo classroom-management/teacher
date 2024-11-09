@@ -59,7 +59,7 @@
 <canvas id="canvas" class="fullscreen"></canvas>
 <div id="banner-container" style="display: none"></div>
 <div id="loading-overlay" class="fullscreen">
-<img id="icon" src="./icon.png"/>
+<img id="icon" src="https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/icon.png"/>
 <div id="progress-bar"><div id="progress-bar-fill"></div></div>
 </div>
 <script src="./instant-games-bridge.js"></script>
@@ -148,18 +148,18 @@
                     bridge.game.on('visibility_state_changed', state => sendMessageToUnity('OnVisibilityStateChanged', state))
 
                     //if (bridge.platform.id === bridge.PLATFORM_ID.YANDEX || bridge.platform.id === bridge.PLATFORM_ID.GAME_DISTRIBUTION) {
-                    //    bridge.advertisement.showInterstitial()
+                    //    bridge.advertisement.showInterstitial() https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/Build/
                     //}
 
                     let unityLoader = document.createElement('script')
-                    unityLoader.src = 'Build/do_not_stop.loader.js'
+                    unityLoader.src = 'https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/Build/do_not_stop.loader.js'
                     unityLoader.onload = () => {
                         createUnityInstance(
                             canvas,
                             {
-                                dataUrl: 'Build/acd6e28b1ece4c0cd838fae50f93cfc2.data.unityweb',
-                                frameworkUrl: 'Build/1e1588748d38a42221eafad4d9ca8539.js.unityweb',
-                                codeUrl: 'Build/18c1f0f737947f6da6d9d2341fbc043a.wasm.unityweb',
+                                dataUrl: 'https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/Build/acd6e28b1ece4c0cd838fae50f93cfc2.data.unityweb',
+                                frameworkUrl: 'https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/Build/1e1588748d38a42221eafad4d9ca8539.js.unityweb',
+                                codeUrl: 'https://cdn.jsdelivr.net/gh/classroom-management/teacher@main/Build/18c1f0f737947f6da6d9d2341fbc043a.wasm.unityweb',
                                 streamingAssetsUrl: 'StreamingAssets',
                                 companyName: 'KAOLA',
                                 productName: 'Do Not Stop!',
